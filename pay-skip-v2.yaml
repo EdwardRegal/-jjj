@@ -7,5 +7,5 @@ scriptings:
   - http_response:
       name: pay-skip-v2
       match: '/api/base/playerPay'
-      script_url: pay-skip-v2.js
+      script_url: https://raw.githubusercontent.com/EdwardRegal/-jjj/refs/heads/main/pay-skip-v2.js
       body_required: true
