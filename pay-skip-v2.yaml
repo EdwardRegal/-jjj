@@ -1,0 +1,11 @@
+name: 43.226.128.167 充值跳过支付 v2
+mitm:
+  hostnames:
+    includes:
+      - 43.226.128.167
+scriptings:
+  - http_response:
+      name: pay-skip-v2
+      match: '/api/base/playerPay'
+      script_url: pay-skip-v2.js
+      body_required: true
